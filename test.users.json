@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6631c102635259bf73ba0db8"
+  },
+  "company": "adidas",
+  "first": "Kelsey",
+  "last": "Savoia",
+  "user": "kelsey_savoia",
+  "pass": "$2b$10$8yuUagQ8xJyj6s5nmAxd.ehy9T1Z50Mq2yAAYjGJeGa.mmZkLBg6O",
+  "isAdmin": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6631c114635259bf73ba0dba"
+  },
+  "company": "adidas",
+  "first": "Sabrina",
+  "last": "Rodriguez",
+  "user": "sabrina_rod",
+  "pass": "$2b$10$e2sQ8lJSSWCyTKcCLWe2oOk0mjaWoPbrgfGEMhRmBknVwwnpQxmyW",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6631c128635259bf73ba0dbc"
+  },
+  "company": "adidas",
+  "first": "Nate",
+  "last": "Belcher",
+  "user": "nate_belcher",
+  "pass": "$2b$10$hYijMVNpKbsmkfL1PN6PROvIOzhLnHyng9DbvBkM4fOgn.JegCaPe",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6631c13f635259bf73ba0dbe"
+  },
+  "company": "adidas",
+  "first": "Rick",
+  "last": "Bautista",
+  "user": "bautista_rick",
+  "pass": "$2b$10$f0fgaxX.9z58NXsWLNSOh.KNeD/bCE69iK16mjl2FrUB5gOQY1Tc6",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6631c16b635259bf73ba0dc0"
+  },
+  "company": "Roadrunner",
+  "first": "Jalen",
+  "last": "Malcolm",
+  "user": "jalen_malcolm",
+  "pass": "$2b$10$EKqIhtWd.6YH0DTGI.HmDekrpLc5utGPTgBdJ7yxxvgLuMIJ7YdTO",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6631c183635259bf73ba0dc2"
+  },
+  "company": "Roadrunner",
+  "first": "Alexis",
+  "last": "Reveya",
+  "user": "reveya_lexi",
+  "pass": "$2b$10$bA95Dxonbw7pxn3.bsd6t.H9SGs8v18Grjx5W12DYhl1KO68I1XT.",
+  "isAdmin": false,
+  "__v": 0
+}]

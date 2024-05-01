@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="userAccount">
+                    <form action="/login" method="POST">
+                        <h2>Log In</h2>
+                        <input type="text" class="box" id="company" name="company" placeholder="Company ID" required /> <!--Takes User's company -->
+                        <br>
+                        <input type="text" class="box" id="user" name="user" placeholder="Username" required /> <!--Takes User's username -->
+                        <br>
+                        <input type="password" class="box" id="pass" name="pass" placeholder="Password" required />  <!--Takes User's password -->
+                        <br>
+                        <div class="text-right"> 
+                            <a href="register.html" class="not-registered-btn">Not registered? Register here.</a>  <!--Redirects User to registration page -->
+                        </div>
+                        <input type="submit" value="Submit" id="submit" />  <!--When pressed, should redirect User to calendar dashboard -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

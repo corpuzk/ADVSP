@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 userAccount">
+                <form action="/sign_up" method="POST">
+                    <h2>Account Registration</h2>
+                    <input type="text" class="box" id="company" name="company" placeholder="Company ID" required /> <!--User inputs company -->
+                    <br>
+                    <div class="name-inputs">
+                        <input type="text" class="box" id="first" name="first" placeholder="First Name" required /> <!--User inputs first name -->
+                        <input type="text" class="box" id="last" name="last" placeholder="Last Name" required /> <!--User inputs last name -->
+                    </div>
+                    <input type="text" class="box" id="user" name="user" placeholder="Username" required /> <!--User inputs username -->
+                    <br> 
+                    <input type="password" class="box" id="pass" name="pass" placeholder="Password" required /> <!--User inputs password -->
+                    <br>
+                    <input type="password" class="box" id="confirm_pass" name="confirm_pass" placeholder="Confirm password" required /> <!--User confirms password -->
+                    <br>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="admin-checkbox" name="admin"> <!--For testing purposes, admin boolean can be selected to trigger admin/general user view -->
+                        <label for="admin-checkbox">Admin?</label>
+                    </div>
+                    <div class="text-right"> 
+                        <a href="login.html" class="already-registered-btn">Already registered? Log in here.</a> <!--Redirects User to login page -->
+                    </div>
+                    <input type="submit" value="Submit" id="submit" /> <!--When pressed, should redirect User to login page -->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
