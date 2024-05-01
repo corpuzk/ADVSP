@@ -1,3 +1,4 @@
+
 //Fetches the HTML objects in each stated class and stores it in a variable
 const calendar = document.querySelector(".calendar"),
   date = document.querySelector(".date"),
@@ -407,3 +408,5 @@ function getEvents() {
   }
   eventsArr.push(...JSON.parse(localStorage.getItem("events"))); //Loads shifts 
 }
+
+//Open sourced calendar creation using https://github.com/opensource-coding/Responsive-Calendar-with-Events/blob/main/README.md
